@@ -1,0 +1,4 @@
+java -cp .:course_transfer_java/Application/lib/sqlite-jdbc-3.47.1.0.jar course_transfer_java/Application/Main
+javac -cp .:course_transfer_java/Application/lib/sqlite-jdbc-3.47.1.0.jar $(find . -name "*.java")     
+
+find . -name "*.class" -type f -delete
